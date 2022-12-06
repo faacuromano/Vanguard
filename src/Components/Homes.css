@@ -1,0 +1,44 @@
+.upBannerHome{
+    height: 70vh;
+    width: 100vw;
+    background-color: rgb(133, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downBannerHome{
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(143, 143, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleBanner{
+    color: azure;
+    font-size: 7vw;
+    text-align: center;
+    max-width: 60vw;
+}
+
+.buttonGetOne{
+    width: 8vw;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+    border: 3px solid #020202;    
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonGetOne:hover{
+    transition: all .5s;
+    color: aliceblue;
+    background-color: black;
+    border-color: white;
+}
